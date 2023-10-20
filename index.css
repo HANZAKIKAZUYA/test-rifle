@@ -1,0 +1,107 @@
+#page-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    color: #000000;
+    font-size: 50px;
+    text-shadow: 0px 20px 8px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+}
+
+#page-sub-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24pt;
+    letter-spacing: 4px;
+    text-shadow:
+         2px  2px 1px #00b359,
+        -2px  2px 1px #00b359,
+         2px -2px 1px #00b359,
+        -2px -2px 1px #00b359,
+         2px  0px 1px #00b359,
+         0px  2px 1px #00b359,
+        -2px  0px 1px #00b359,
+         0px -2px 1px #00b359;
+}
+
+#join-info {
+    text-align: center;
+    color: #ffff1a;
+    font-size: 20pt;
+    letter-spacing: 4px;
+    text-shadow: 
+         2px  2px 1px #003366,
+        -2px  2px 1px #003366,
+         2px -2px 1px #003366,
+        -2px -2px 1px #003366,
+         2px  0px 1px #003366,
+         0px  2px 1px #003366,
+        -2px  0px 1px #003366,
+         0px -2px 1px #003366;
+}
+
+.info-box {
+    position: relative;
+    box-sizing: border-box;
+    margin: 14px auto 0 auto;
+    max-width: 500px;
+    background: #fff;
+    padding: 33px 10px 25px 10px;
+    border: 3px solid #0059b3;
+}
+   
+.info-box::before {
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 1;
+    background: #0059b3;
+    color: #ffffff;
+    content: attr(title);
+    font-weight: bold;
+    padding: 8px 15px;
+    top: -17px;
+    left: 16px;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+#info-admin {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000000;
+    overflow-y: scroll;
+}
+
+.list-004 {
+    border: 2px solid #25d058;
+    width: 600px;
+    height: 250px;
+}
+
+.list-004 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #25d058;
+    color: #fff;
+    font-weight: 600;
+}
+
+.list-004 ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 1em 1em 1em 2.5em;
+}
+
+.list-004 li {
+    padding: .3em .3em .3em 0;
+}
+
+.list-004 li::marker {
+    color: #25d058;
+    font-size: 1.1em;
+}
